@@ -12,7 +12,7 @@
 * valid HTML5 + CSS3;
 * no fonts (include only what you prefer using `extra_css`);
 * no libs - except for a single (~2KB) module (include only what you prefer using `extra_javascript`);
-* supports Mkdocs configuration features such as `google_analytics`.
+* supports MkDocs configuration features such as `google_analytics`.
 
 ## Install
 
