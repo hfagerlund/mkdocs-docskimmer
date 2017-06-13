@@ -1,0 +1,18 @@
+site_name: docSkimmer theme
+site_description: An accessible skimmable theme for documentation sites built using MkDocs
+site_author: Heini Fagerlund
+
+site_url: https://hfagerlund.github.io/mkdocs-docskimmer/
+repo_url: https://github.com/hfagerlund/mkdocs-docskimmer/
+
+pages:
+    - Intro: index.md
+    - Examples:
+        - Sample1: examples/sample-page.md
+        - Sample2: examples/another-sample-page.md
+
+theme_dir: 'mkdocs_docskimmer'
+
+copyright: Copyright &copy; 2017 Heini Fagerlund
+google_analytics: ['UA-38407980-4', 'auto']
+
