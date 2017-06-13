@@ -2,14 +2,14 @@
 
 **docSkimmer** is a skimmable minimal theme for [MkDocs](https://github.com/mkdocs/mkdocs/).
 
-<img style="max-width:100%;" alt="Screenshot of docSkimmer theme for MkDocs" src="/screenshots/screenshot_docskimmer-theme.png" align="center" /><br />
+<img style="max-width:100%;" alt="Screenshot of docSkimmer theme for MkDocs" src="/screenshots/screenshot_docskimmer-theme.png" align="center" style="border:1px solid #999" /><br />
 *Figure 1: Screenshot of docSkimmer theme for MkDocs*
 
 ## Features
 
-* valid HTML5 + CSS3;
-* responsive;
 * accessible;
+* responsive;
+* valid HTML5 + CSS3;
 * no fonts (include only what you prefer using `extra_css`);
 * no libs - except for a single (~2KB) module (include only what you prefer using `extra_javascript`);
 * supports Mkdocs configuration features such as `google_analytics`.
