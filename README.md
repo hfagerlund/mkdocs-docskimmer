@@ -16,9 +16,16 @@
 
 ## Install
 
-Clone docSkimmer from GitHub and copy contents of the `mkdocs_docskimmer` directory into the MkDocs project root (ie. at same level as `docs` directory).
+* Clone docSkimmer from GitHub:
 
-Add to `mkdocs.yml`:
+```
+$ git clone https://github.com/hfagerlund/mkdocs-docskimmer.git
+
+```
+
+* Copy the contents of the `mkdocs_docskimmer` directory into the MkDocs project root (ie. at same level as `docs` directory).
+
+* Add to `mkdocs.yml`:
 
 ```
 theme_dir: 'mkdocs_docskimmer'
