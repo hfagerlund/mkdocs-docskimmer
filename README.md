@@ -2,7 +2,8 @@
 
 **docSkimmer** is a skimmable minimal theme for [MkDocs](https://github.com/mkdocs/mkdocs/).
 
-<img style="border:1px solid #999;max-width:100%;" alt="Screenshot of docSkimmer theme for MkDocs" src="/screenshots/screenshot_docskimmer-theme.png" align="center" /><br />
+<img style="max-width:100%;" alt="Screenshot of docSkimmer theme for MkDocs" src="/screenshots/screenshot_docskimmer-theme.png" align="center" /><br />
+
 *Figure 1: Screenshot of docSkimmer theme for MkDocs*
 
 ## Features
@@ -23,7 +24,7 @@ $ git clone https://github.com/hfagerlund/mkdocs-docskimmer.git
 
 ```
 
-* Copy the contents of the `mkdocs_docskimmer` directory into the MkDocs project root (ie. at same level as `docs` directory).
+* Copy the contents of the `mkdocs_docskimmer` directory into the MkDocs project root (ie. at the same level as the `docs` directory).
 
 * Add to `mkdocs.yml`:
 
