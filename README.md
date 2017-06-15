@@ -2,7 +2,7 @@
 
 **docSkimmer** is a skimmable minimal theme for [MkDocs](https://github.com/mkdocs/mkdocs/).
 
-<img style="max-width:100%;" alt="Screenshot of docSkimmer theme for MkDocs" src="/screenshots/screenshot_docskimmer-theme.png" align="center" /><br />
+<img style="max-width:100%;" alt="Screenshot of docSkimmer theme for MkDocs" src="/screenshots/mkdocs-docskimmer.png" align="center" /><br />
 
 *Figure 1: Screenshot of docSkimmer theme for MkDocs*
 
