@@ -1,6 +1,22 @@
 # Changelog:
 
 - - -
+## 0.1.1 - 2017-06-15
+
+#### New features:
+* Launched documentation site
+
+#### Changed:
+* Replaced screenshot
+* Modified README:
+  * minor text copy, format, spacing changes
+  * updated (new) screenshot filename
+* Bumped version number
+
+#### Fixed:
+* Fixed 404 error page bug (Search block URL)
+* Corrected typos in README, (subnav) comment
+- - -
 ## 0.1.0 - 2017-06-12
 #### New features:
 * Initial version
