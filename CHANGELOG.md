@@ -1,6 +1,11 @@
 # Changelog:
 
 - - -
+## 0.1.2 - 2017-08-08
+
+#### Fixed:
+* Relocated 'search' role attribute
+- - -
 ## 0.1.1 - 2017-06-15
 
 #### New features:
