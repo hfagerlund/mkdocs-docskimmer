@@ -10,6 +10,7 @@
 #### Changed:
 * Modified README:
   * new [Version compatibility](https://github.com/hfagerlund/mkdocs-docskimmer#version) section
+* Updated [demo](https://hfagerlund.github.io/mkdocs-docskimmer/) (to docSkimmer v0.2.0)
 * Bumped version number
 - - -
 ## 0.1.1 - 2017-06-15

@@ -2,7 +2,7 @@
     "docs": [
         {
             "location": "/", 
-            "text": "docSkimmer\n\n\ndocSkimmer\n is a skimmable minimal theme for static documentation sites built using \nMkDocs\n.\n\n\nFeatures\n\n\n\n\naccessible;\n\n\nlightweight - no fonts or libs included (except for a single ~2KB module) - so that you can add only what you prefer;\n\n\nresponsive;\n\n\nskimmable;\n\n\nvalid HTML5 + CSS3.\n\n\n\n\nInstallation\n\n\n\n\nClone \ndocSkimmer from GitHub\n:\n\n\n\n\ngit clone https://github.com/hfagerlund/mkdocs-docskimmer.git\n\n\n\n\n\n\nCopy contents of the '/mkdocs_docskimmer' directory into your MkDocs project root (ie. at same level as the project's '/docs' directory).\n\n\nAdd the following to 'mkdocs.yml':\n\n\n\n\ntheme_dir: 'mkdocs_docskimmer'\n\n\n\n\nExamples\n\n\nExamples of how Markdown syntax is rendered and how 2nd-level navigation is displayed in the \ndocSkimmer theme\n are available on \nthis sample page\n.", 
+            "text": "docSkimmer\n\n\ndocSkimmer\n is a skimmable minimal theme for static documentation sites built using \nMkDocs\n.\n\n\nFeatures\n\n\n\n\naccessible;\n\n\nlightweight - no fonts or libs included (except for a single ~2KB module) - so that you can add only what you prefer;\n\n\nresponsive;\n\n\nskimmable;\n\n\nvalid HTML5 + CSS3.\n\n\n\n\nInstallation\n\n\n\n\nClone \ndocSkimmer from GitHub\n:\n\n\n\n\ngit clone https://github.com/hfagerlund/mkdocs-docskimmer.git\n\n\n\n\nOr \ndownload the required version\n - refer to: \n'Version compatibility'\n.\n\n\n\n\nCopy the contents of the '/mkdocs_docskimmer' directory into your MkDocs project root (ie. at the same level as the project's '/docs' directory).\n\n\n\n\nFor docSkimmer v0.2.0:\n\n\n\n\nAdd the following to 'mkdocs.yml' -\n\n\n\n\ntheme:\n    name: null\n    custom_dir: 'mkdocs_docskimmer'\n\nstatic_templates:\n    - 404.html\n\nextra:\n    version: 0.2.0\n\n\n\n\n\nFor docSkimmer v0.1.x:\n\n\n\n\nAdd the following to 'mkdocs.yml' -\n\n\n\n\ntheme_dir: 'mkdocs_docskimmer'\n\n\n\n\nVersion compatibility\n\n\n\n\n\n\n\n\ndocSkimmer theme version(s)\n\n\nMkDocs version(s)\n\n\n\n\n\n\n\n\n\n\n0.2.0\n\n\n0.17.0\n\n\n\n\n\n\n0.1.0\n0.1.1\n\n\n0.16.2\n0.16.3\n\n\n\n\n\n\n\n\nExamples\n\n\nExamples of how Markdown syntax is rendered and how 2nd-level navigation is displayed in the \ndocSkimmer theme\n are available on \nthis sample page\n.", 
             "title": "Intro"
         }, 
         {
@@ -17,8 +17,23 @@
         }, 
         {
             "location": "/#installation", 
-            "text": "Clone  docSkimmer from GitHub :   git clone https://github.com/hfagerlund/mkdocs-docskimmer.git   Copy contents of the '/mkdocs_docskimmer' directory into your MkDocs project root (ie. at same level as the project's '/docs' directory).  Add the following to 'mkdocs.yml':   theme_dir: 'mkdocs_docskimmer'", 
+            "text": "Clone  docSkimmer from GitHub :   git clone https://github.com/hfagerlund/mkdocs-docskimmer.git  Or  download the required version  - refer to:  'Version compatibility' .   Copy the contents of the '/mkdocs_docskimmer' directory into your MkDocs project root (ie. at the same level as the project's '/docs' directory).", 
             "title": "Installation"
+        }, 
+        {
+            "location": "/#for-docskimmer-v020", 
+            "text": "Add the following to 'mkdocs.yml' -   theme:\n    name: null\n    custom_dir: 'mkdocs_docskimmer'\n\nstatic_templates:\n    - 404.html\n\nextra:\n    version: 0.2.0", 
+            "title": "For docSkimmer v0.2.0:"
+        }, 
+        {
+            "location": "/#for-docskimmer-v01x", 
+            "text": "Add the following to 'mkdocs.yml' -   theme_dir: 'mkdocs_docskimmer'", 
+            "title": "For docSkimmer v0.1.x:"
+        }, 
+        {
+            "location": "/#version-compatibility", 
+            "text": "docSkimmer theme version(s)  MkDocs version(s)      0.2.0  0.17.0    0.1.0 0.1.1  0.16.2 0.16.3", 
+            "title": "Version compatibility"
         }, 
         {
             "location": "/#examples", 
