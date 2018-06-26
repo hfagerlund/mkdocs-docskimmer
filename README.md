@@ -24,7 +24,7 @@ $ git clone https://github.com/hfagerlund/mkdocs-docskimmer.git
 
 ```
 
-Or [download the required version](https://github.com/hfagerlund/mkdocs-docskimmer/releases) - refer to: ['Version compatibility'](https://github.com/hfagerlund/mkdocs-docskimmer/blob/master/README.md#version).
+Or [download the required version](https://github.com/hfagerlund/mkdocs-docskimmer/releases) - refer to: ['Version compatibility'](https://github.com/hfagerlund/mkdocs-docskimmer#version-compatibility).
 
 * Copy the contents of the `mkdocs_docskimmer` directory into the MkDocs project root (ie. at the same level as the `docs` directory).
 
