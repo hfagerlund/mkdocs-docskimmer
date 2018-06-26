@@ -1,17 +1,28 @@
 {% extends "base.html" %}
 
 {% block scripts %}
-  {{ super() }}
-  <script>var base_url = '{{ base_url }}';</script>
-  <script data-main="{{ base_url }}/mkdocs/js/search.js" src="{{ base_url }}/mkdocs/js/require.js"></script>
+  <script src="../js/theme.js"></script>
+  <script src="../search/text.js"></script>
+  <script src="../search/lunr.min.js"></script>
+
+  {# enable customization #}
+  {%- for path in extra_javascript %}
+    <script src="{{ path }}"></script>
+  {%- endfor %}
 {% endblock scripts %}
 
 {% block styles %}
-  {{ super() }}
+  <link rel="stylesheet" href="../css/reset.css" type="text/css">
+  <link rel="stylesheet" href="../css/docskimmer.css" type="text/css">
+
+  {# enable customization #}
+  {%- for path in extra_css %}
+    <link href="{{ path }}" rel="stylesheet">
+  {%- endfor %}
 {% endblock styles %}
 
 {% block search %}
-  <form class="form form--search" id="content_search" action="{{ base_url }}/search.html" role="search">
+  <form class="form form--search" id="content_search" action="../search.html" role="search">
     <div class="form-group">
       <label class="hidden" for="mkdocs-search-query">Search for:</label>
       <input type="search" aria-label="Search" class="form__input" name="q" id="mkdocs-search-query" tabindex="3"> <button type="submit" class="form__btn-submit">Search</button>
