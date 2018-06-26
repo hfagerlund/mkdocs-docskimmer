@@ -34,7 +34,7 @@
     {% include "logo.html" %}
 
     {% block search %}
-        {% include "searchbox.html" %}
+        {% if 'search' in config['plugins'] %}{% include "searchbox.html" %}{% endif %}
     {% endblock search %}
     
     {% include "nav-main.html" %}
@@ -102,7 +102,8 @@
   {% endblock analytics %}
 
   {% block scripts %}
-    <script src="{{ base_url }}/js/base.js"></script>
+    <script>var base_url = '{{ base_url }}';</script>
+    <script src="{{ base_url }}/js/theme.js"></script>
    {# enable customization #}
    {%- for path in extra_javascript %}
       <script src="{{ path }}"></script>
@@ -111,6 +112,7 @@
 
   <!--
   MkDocs version : {{ mkdocs_version }}
+  docSkimmer theme version: {{ config.extra.version }}
   Build Date UTC : {{ build_date_utc }}
   -->
   </body>

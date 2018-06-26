@@ -1,6 +1,18 @@
 # Changelog:
 
 - - -
+## 0.2.0 - 2017-06-26
+
+#### New features:
+* Compatible with [MkDocs v0.17.0](https://github.com/mkdocs/mkdocs/releases)
+* Displays version number of theme (in generated source)
+
+#### Changed:
+* Modified README:
+  * new [Version compatibility](https://github.com/hfagerlund/mkdocs-docskimmer#version) section
+* Updated [demo](https://hfagerlund.github.io/mkdocs-docskimmer/) (to docSkimmer v0.2.0)
+* Bumped version number
+- - -
 ## 0.1.1 - 2017-06-15
 
 #### New features:

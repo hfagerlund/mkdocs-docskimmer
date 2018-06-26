@@ -113,13 +113,52 @@
 <pre><code>git clone https://github.com/hfagerlund/mkdocs-docskimmer.git
 </code></pre>
 
+<p>Or <a href="https://github.com/hfagerlund/mkdocs-docskimmer/releases">download the required version</a> - refer to: <a href="https://hfagerlund.github.io/mkdocs-docskimmer/#version">'Version compatibility'</a>.</p>
 <ul>
-<li>Copy contents of the '/mkdocs_docskimmer' directory into your MkDocs project root (ie. at same level as the project's '/docs' directory).</li>
-<li>Add the following to 'mkdocs.yml':</li>
+<li>Copy the contents of the '/mkdocs_docskimmer' directory into your MkDocs project root (ie. at the same level as the project's '/docs' directory).</li>
+</ul>
+<h3 id="for-docskimmer-v020">For docSkimmer v0.2.0:</h3>
+<ul>
+<li>Add the following to 'mkdocs.yml' -</li>
+</ul>
+<pre><code>theme:
+    name: null
+    custom_dir: 'mkdocs_docskimmer'
+
+static_templates:
+    - 404.html
+
+extra:
+    version: 0.2.0
+
+</code></pre>
+
+<h3 id="for-docskimmer-v01x">For docSkimmer v0.1.x:</h3>
+<ul>
+<li>Add the following to 'mkdocs.yml' -</li>
 </ul>
 <pre><code>theme_dir: 'mkdocs_docskimmer'
 </code></pre>
 
+<h2 id="version-compatibility">Version compatibility</h2>
+<table>
+<thead>
+<tr>
+<th align="center">docSkimmer theme version(s)</th>
+<th align="center">MkDocs version(s)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center">0.2.0</td>
+<td align="center">0.17.0</td>
+</tr>
+<tr>
+<td align="center">0.1.0<br>0.1.1</td>
+<td align="center">0.16.2<br>0.16.3</td>
+</tr>
+</tbody>
+</table>
 <h2 id="examples">Examples</h2>
 <p>Examples of how Markdown syntax is rendered and how 2nd-level navigation is displayed in the <a href="https://github.com/hfagerlund/mkdocs-docskimmer/">docSkimmer theme</a> are available on <a href="./examples/sample-page">this sample page</a>.</p>
      </main>
@@ -134,6 +173,8 @@
         <li class="page-toc__item"><a href="#features" class="page-toc__link" tabindex="0">Features</a></li>
     
         <li class="page-toc__item"><a href="#installation" class="page-toc__link" tabindex="0">Installation</a></li>
+    
+        <li class="page-toc__item"><a href="#version-compatibility" class="page-toc__link" tabindex="0">Version compatibility</a></li>
     
         <li class="page-toc__item"><a href="#examples" class="page-toc__link" tabindex="0">Examples</a></li>
     
@@ -175,13 +216,17 @@
   
 
   
-    <script src="./js/base.js"></script>
+    <script>var base_url = '.';</script>
+    <script src="./js/theme.js"></script>
    
+      <script src="./search/require.js"></script>
+      <script src="./search/search.js"></script>
   
 
   <!--
-  MkDocs version : 0.16.2
-  Build Date UTC : 2017-06-13 00:53:43
+  MkDocs version : 0.17.0
+  docSkimmer theme version: 0.2.0
+  Build Date UTC : 2018-06-26 20:26:39
   -->
   </body>
 </html>

@@ -24,7 +24,28 @@ $ git clone https://github.com/hfagerlund/mkdocs-docskimmer.git
 
 ```
 
+Or [download the required version](https://github.com/hfagerlund/mkdocs-docskimmer/releases) - refer to: ['Version compatibility'](https://github.com/hfagerlund/mkdocs-docskimmer/blob/master/README.md#version).
+
 * Copy the contents of the `mkdocs_docskimmer` directory into the MkDocs project root (ie. at the same level as the `docs` directory).
+
+### For docSkimmer v0.2.0:
+
+* Add to `mkdocs.yml`:
+
+```
+theme:
+    name: null
+    custom_dir: 'mkdocs_docskimmer'
+
+static_templates:
+    - 404.html
+
+extra:
+    version: 0.2.0
+
+```
+
+### For docSkimmer v0.1.x:
 
 * Add to `mkdocs.yml`:
 
@@ -34,6 +55,13 @@ theme_dir: 'mkdocs_docskimmer'
 ```
 
 (Not on PyPI yet. )
+
+## Version compatibility
+
+| docSkimmer theme version(s) | MkDocs version(s) |
+| :------: | :------: |
+| 0.2.0 | 0.17.0 |
+| 0.1.0<br>0.1.1 | 0.16.2<br>0.16.3 |
 
 ## Demo
 
