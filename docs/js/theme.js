@@ -1,5 +1,5 @@
 /*
-   docSkimmer theme v0.2.0
+   docSkimmer theme v0.2.1
    License: BSD-2-Clause license (https://github.com/hfagerlund/mkdocs-docskimmer/blob/master/LICENSE)
 */
 
@@ -37,7 +37,7 @@ var MenuPanel = (function() {
     if((event.keyCode === 13 || event.keyCode === 32) || (event.type === 'click')){
       containerPageToc.style.width = "0";
       containerMainContent.style.marginLeft= "2em";
-      //check whether page-toc link was activated 
+      //check whether page-toc link was activated
       if(event.target.href){
         var link = event.target.href,
             anchor = "#";
@@ -48,11 +48,11 @@ var MenuPanel = (function() {
       }
     }
   }
-  
+
   return {
     init: function() {
       if(containerPageToc){
-      	_bindEventListeners();
+        _bindEventListeners();
       } else {
         _hideMenuOpenControl();
       }

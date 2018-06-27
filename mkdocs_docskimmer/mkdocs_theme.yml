@@ -1,4 +1,1 @@
 # config options for 'docSkimmer' theme
-
-static_templates:
-    - 404.html
