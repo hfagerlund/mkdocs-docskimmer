@@ -4,7 +4,7 @@
 ## 0.2.1 - 2017-06-27
 
 #### New features:
-* Compatible with [MkDocs versions >= 0.17.0 (ie. v0.17.0, v0.17.2, v0.17.3, v0.17.4)](https://github.com/mkdocs/mkdocs/releases)
+* Compatible with [MkDocs versions >= 0.17.0 (ie. v0.17.0, v0.17.1, v0.17.2, v0.17.3, v0.17.4)](https://github.com/mkdocs/mkdocs/releases)
 
 #### Changed:
 * Updated [demo](https://hfagerlund.github.io/mkdocs-docskimmer/) (to docSkimmer v0.2.1)

@@ -80,7 +80,7 @@ theme_dir: 'mkdocs_docskimmer'
 
 | docSkimmer theme version(s) | MkDocs version(s) |
 | :------: | :------: |
-| 0.2.1 | 0.17.4<br>0.17.3<br>0.17.2<br>0.17.0 |
+| 0.2.1 | 0.17.4<br>0.17.3<br>0.17.2<br>0.17.1<br>0.17.0 |
 | 0.2.0 | 0.17.0 |
 | 0.1.1<br>0.1.0 | 0.16.3<br>0.16.2 |
 
