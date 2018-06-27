@@ -113,10 +113,29 @@
 <pre><code>git clone https://github.com/hfagerlund/mkdocs-docskimmer.git
 </code></pre>
 
-<p>Or <a href="https://github.com/hfagerlund/mkdocs-docskimmer/releases">download the required version</a> - refer to: <a href="https://hfagerlund.github.io/mkdocs-docskimmer/#version">'Version compatibility'</a>.</p>
+<p>Or <a href="https://github.com/hfagerlund/mkdocs-docskimmer/releases">download the required version</a> - refer to: <a href="https://hfagerlund.github.io/mkdocs-docskimmer/#version-compatibility">'Version compatibility'</a>.</p>
 <ul>
 <li>Copy the contents of the '/mkdocs_docskimmer' directory into your MkDocs project root (ie. at the same level as the project's '/docs' directory).</li>
 </ul>
+<h3 id="for-docskimmer-v021">For docSkimmer v0.2.1:</h3>
+<ul>
+<li>Add the following to 'mkdocs.yml' -</li>
+</ul>
+<pre><code>theme:
+  name: null
+  custom_dir: 'mkdocs_docskimmer'
+  include_search_page: true
+  search_index_only: false
+  static_templates:
+  - 404.html
+
+plugins: ['search']
+
+extra:
+    version: 0.2.1
+
+</code></pre>
+
 <h3 id="for-docskimmer-v020">For docSkimmer v0.2.0:</h3>
 <ul>
 <li>Add the following to 'mkdocs.yml' -</li>
@@ -150,12 +169,16 @@ extra:
 </thead>
 <tbody>
 <tr>
+<td align="center">0.2.1</td>
+<td align="center">0.17.4<br>0.17.3<br>0.17.2<br>0.17.0</td>
+</tr>
+<tr>
 <td align="center">0.2.0</td>
 <td align="center">0.17.0</td>
 </tr>
 <tr>
-<td align="center">0.1.0<br>0.1.1</td>
-<td align="center">0.16.2<br>0.16.3</td>
+<td align="center">0.1.1<br>0.1.0</td>
+<td align="center">0.16.3<br>0.16.2</td>
 </tr>
 </tbody>
 </table>
@@ -224,9 +247,9 @@ extra:
   
 
   <!--
-  MkDocs version : 0.17.0
-  docSkimmer theme version: 0.2.0
-  Build Date UTC : 2018-06-26 20:26:39
+  MkDocs version : 0.17.4
+  docSkimmer theme version: 0.2.1
+  Build Date UTC : 2018-06-27 17:21:30
   -->
   </body>
 </html>

@@ -12,15 +12,17 @@ pages:
         - Sample2: examples/another-sample-page.md
 
 theme:
-    name: null
-    custom_dir: 'mkdocs_docskimmer'
+  name: null
+  custom_dir: 'mkdocs_docskimmer'
+  include_search_page: true
+  search_index_only: false
+  static_templates:
+  - 404.html
 
-static_templates:
-    - 404.html
+plugins: ['search']
 
 extra:
-    version: 0.2.0
+    version: 0.2.1
 
 copyright: Copyright &copy; 2017 Heini Fagerlund
 google_analytics: ['UA-38407980-4', 'auto']
-

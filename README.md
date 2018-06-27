@@ -28,6 +28,26 @@ Or [download the required version](https://github.com/hfagerlund/mkdocs-docskimm
 
 * Copy the contents of the `mkdocs_docskimmer` directory into the MkDocs project root (ie. at the same level as the `docs` directory).
 
+### For docSkimmer v0.2.1:
+
+* Add to `mkdocs.yml`:
+
+```
+theme:
+  name: null
+  custom_dir: 'mkdocs_docskimmer'
+  include_search_page: true
+  search_index_only: false
+  static_templates:
+  - 404.html
+
+plugins: ['search']
+
+extra:
+    version: 0.2.1
+
+```
+
 ### For docSkimmer v0.2.0:
 
 * Add to `mkdocs.yml`:
@@ -60,8 +80,9 @@ theme_dir: 'mkdocs_docskimmer'
 
 | docSkimmer theme version(s) | MkDocs version(s) |
 | :------: | :------: |
+| 0.2.1 | 0.17.4<br>0.17.3<br>0.17.2<br>0.17.0 |
 | 0.2.0 | 0.17.0 |
-| 0.1.0<br>0.1.1 | 0.16.2<br>0.16.3 |
+| 0.1.1<br>0.1.0 | 0.16.3<br>0.16.2 |
 
 ## Demo
 
