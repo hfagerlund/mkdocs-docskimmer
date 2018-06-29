@@ -7,13 +7,13 @@
         <li class="nav-main__item{% if nav_item1.active %} nav-main__item--current{% endif %}" role="menuitem">
           {% for nav_item2 in nav_item1.children %}
             {% if loop.first %}                   
-              <a class="nav-main__link{% if nav_item2.active%} nav-main__link--current{%endif%}" href="{{ nav_item2.url }}">{% if nav_item2.active%}<span class="visually-hidden">Current: </span> {%endif%} {{ nav_item1.title }}</a>
+              <a class="nav-main__link{% if nav_item2.active%} nav-main__link--current{%endif%}" href="{{ base_url }}/{{ nav_item2.url }}">{% if nav_item2.active%}<span class="visually-hidden">Current: </span> {%endif%} {{ nav_item1.title }}</a>
             {% endif %}
           {% endfor %}
         </li>
       {% else %}
           <li class="nav-main__item{% if nav_item1.active%} nav-main__item--current{%endif%}" role="menuitem">
-           	<a class="nav-main__link{% if nav_item1.active%} nav-main__link--current{%endif%}" href="{{ nav_item1.url }}">{% if nav_item1.active%}<span class="visually-hidden">Current: </span> {%endif%}{{ nav_item1.title }}</a>
+              <a class="nav-main__link{% if nav_item1.active%} nav-main__link--current{%endif%}" href="{{ base_url }}/{{ nav_item1.url }}">{% if nav_item1.active%}<span class="visually-hidden">Current: </span> {%endif%}{{ nav_item1.title }}</a>
           </li>
       {% endif %}
     {% endfor %}

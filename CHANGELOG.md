@@ -1,6 +1,15 @@
 # Changelog:
 
 - - -
+## 0.3.0 - 2017-06-29
+
+#### New features:
+* Compatible with [Pages refactor of MkDocs](https://github.com/mkdocs/mkdocs/tree/34ef3ca6d0390959080ce93a695361eea1649272)
+
+#### Changed:
+* Updated [demo](https://hfagerlund.github.io/mkdocs-docskimmer/) (to docSkimmer v0.3.0)
+* Bumped version number
+- - -
 ## 0.2.1 - 2017-06-27
 
 #### New features:
