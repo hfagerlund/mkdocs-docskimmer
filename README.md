@@ -1,6 +1,6 @@
 # docSkimmer Theme
 
-**docSkimmer** is a skimmable minimal theme for [MkDocs](https://github.com/mkdocs/mkdocs/).
+**docSkimmer** is a skimmable minimal theme for [MkDocs](https://github.com/mkdocs/mkdocs/). Supports [MkDocs versions >= 0.16.2](https://github.com/hfagerlund/mkdocs-docskimmer#version-compatibility).
 
 <img style="max-width:100%;" alt="Screenshot of docSkimmer theme for MkDocs" src="/screenshots/mkdocs-docskimmer.png" align="center" /><br />
 
@@ -26,13 +26,41 @@ $ git clone https://github.com/hfagerlund/mkdocs-docskimmer.git
 
 Or [download the required version](https://github.com/hfagerlund/mkdocs-docskimmer/releases) - refer to: ['Version compatibility'](https://github.com/hfagerlund/mkdocs-docskimmer#version-compatibility).
 
+(Not on PyPI yet.)
+
 * Copy the contents of the `mkdocs_docskimmer` directory into the MkDocs project root (ie. at the same level as the `docs` directory).
 
-### For docSkimmer v0.2.1:
+* Modify the following settings in the 'mkdocs.yml' file:
 
-* Add to `mkdocs.yml`:
+### For docSkimmer v0.3.0:
+```yaml
+# mkdocs.yml:
+
+nav:
+    ## add your custom pages hierarchy here
+
+theme:
+  name: null
+  custom_dir: 'mkdocs_docskimmer'
+  include_search_page: true
+  search_index_only: false
+  static_templates:
+  - 404.html
+
+plugins: ['search']
+
+extra:
+    version: 0.3.0
 
 ```
+
+### For docSkimmer v0.2.1:
+```yaml
+# mkdocs.yml:
+
+pages:
+    ## add your custom pages hierarchy here
+
 theme:
   name: null
   custom_dir: 'mkdocs_docskimmer'
@@ -49,10 +77,12 @@ extra:
 ```
 
 ### For docSkimmer v0.2.0:
+```yaml
+# mkdocs.yml:
 
-* Add to `mkdocs.yml`:
+pages:
+    ## add your custom pages hierarchy here
 
-```
 theme:
     name: null
     custom_dir: 'mkdocs_docskimmer'
@@ -66,20 +96,20 @@ extra:
 ```
 
 ### For docSkimmer v0.1.x:
+```yaml
+# mkdocs.yml:
 
-* Add to `mkdocs.yml`:
+pages:
+    ## add your custom pages hierarchy here
 
-```
 theme_dir: 'mkdocs_docskimmer'
-
 ```
-
-(Not on PyPI yet. )
 
 ## Version compatibility
 
 | docSkimmer theme version(s) | MkDocs version(s) |
 | :------: | :------: |
+| 0.3.0 | [(current) latest refactor of MkDocs](https://github.com/mkdocs/mkdocs/tree/34ef3ca6d0390959080ce93a695361eea1649272) |
 | 0.2.1 | 0.17.4<br>0.17.3<br>0.17.2<br>0.17.1<br>0.17.0 |
 | 0.2.0 | 0.17.0 |
 | 0.1.1<br>0.1.0 | 0.16.3<br>0.16.2 |

@@ -5,7 +5,7 @@ site_author: Heini Fagerlund
 site_url: https://hfagerlund.github.io/mkdocs-docskimmer
 repo_url: https://github.com/hfagerlund/mkdocs-docskimmer/
 
-pages:
+nav:
     - Intro: index.md
     - Examples:
         - Sample1: examples/sample-page.md
@@ -22,7 +22,7 @@ theme:
 plugins: ['search']
 
 extra:
-    version: 0.2.1
+    version: 0.3.0
 
 copyright: Copyright &copy; 2017 Heini Fagerlund
 google_analytics: ['UA-38407980-4', 'auto']
