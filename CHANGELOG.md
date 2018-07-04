@@ -1,6 +1,15 @@
 # Changelog:
 
 - - -
+## 0.3.1 - 2018-07-04
+
+#### Changed:
+* Updated [demo](https://hfagerlund.github.io/mkdocs-docskimmer/) (to docSkimmer v0.3.1)
+* Bumped version number
+
+#### Fixed:
+* Compatible with [new MkDocs template URL filter](https://github.com/mkdocs/mkdocs/pull/1526/commits/68e6d1c1f9444ff0fe2a92c1eb76542330d88e4c)
+- - -
 ## 0.3.0 - 2017-06-29
 
 #### New features:

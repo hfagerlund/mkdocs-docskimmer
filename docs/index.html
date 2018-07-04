@@ -10,16 +10,16 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
   
-    <link rel="stylesheet" href="./css/reset.css" type="text/css">
-    <link rel="stylesheet" href="./css/docskimmer.css" type="text/css">
+    <link rel="stylesheet" href="css/reset.css" type="text/css">
+    <link rel="stylesheet" href="css/docskimmer.css" type="text/css">
 
     
   
 
-    <link rel="shortcut icon" href="./img/favicon.ico">
-	  <link rel="apple-touch-icon" href="./img/apple-touch-icon.png">
-	  <link rel="apple-touch-icon" sizes="72x72" href="./img/apple-touch-icon-72x72.png">
-	  <link rel="apple-touch-icon" sizes="114x114" href="./img/apple-touch-icon-114x114.png">
+    <link rel="shortcut icon" href="img/favicon.ico">
+	<link rel="apple-touch-icon" href="img/apple-touch-icon.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="img/apple-touch-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="img/apple-touch-icon-114x114.png">
   </head>
 
   <body>
@@ -27,7 +27,7 @@
     <div id="top" class="wrapper">
     <header class="header-main" role="banner">
   
-     <h2 class="header-main__heading"><a class="header-main__link" href="./">docSkimmer theme</a></h2>
+     <h2 class="header-main__heading"><a class="header-main__link" href=".">docSkimmer theme</a></h2>
   
 </header>
 
@@ -49,7 +49,7 @@
     
       
           <li class="nav-main__item nav-main__item--current" role="menuitem">
-              <a class="nav-main__link nav-main__link--current" href="./"><span class="visually-hidden">Current: </span> Intro</a>
+              <a class="nav-main__link nav-main__link--current" href="."><span class="visually-hidden">Current: </span> Intro</a>
           </li>
       
     
@@ -57,7 +57,7 @@
         <li class="nav-main__item" role="menuitem">
           
                                
-              <a class="nav-main__link" href="./examples/sample-page/"> Examples</a>
+              <a class="nav-main__link" href="examples/sample-page/"> Examples</a>
             
           
             
@@ -123,7 +123,7 @@
 <p>Modify the following settings in the 'mkdocs.yml' file:</p>
 </li>
 </ul>
-<h3 id="for-docskimmer-v030">For docSkimmer v0.3.0:</h3>
+<h3 id="for-docskimmer-v03x">For docSkimmer v0.3.x:</h3>
 <pre><code># mkdocs.yml:
 
 nav:
@@ -139,8 +139,9 @@ theme:
 
 plugins: ['search']
 
+# add theme version number here
 extra:
-    version: 0.3.0
+    version: 0.3.x
 
 </code></pre>
 
@@ -202,8 +203,12 @@ theme_dir: 'mkdocs_docskimmer'
 </thead>
 <tbody>
 <tr>
-<td align="center"><strong>0.3.0</strong></td>
-<td align="center"><strong><a href="https://github.com/mkdocs/mkdocs/tree/34ef3ca6d0390959080ce93a695361eea1649272">(current) latest refactor of MkDocs</a></strong></td>
+<td align="center">0.3.1</td>
+<td align="center"><a href="https://github.com/mkdocs/mkdocs/tree/decaf6141c90b0123a4b7f03ee839d0780570bc9">Template URL filter addition</a></td>
+</tr>
+<tr>
+<td align="center">0.3.0</td>
+<td align="center"><a href="https://github.com/mkdocs/mkdocs/tree/34ef3ca6d0390959080ce93a695361eea1649272">Pages refactor</a></td>
 </tr>
 <tr>
 <td align="center">0.2.1</td>
@@ -228,26 +233,25 @@ theme_dir: 'mkdocs_docskimmer'
        <h2 class="page-toc__heading">On this Page:</h2>
 <ul>
 
-    <li class="page-toc__item"><a href="./#docskimmer" class="page-toc__link" tabindex="0">docSkimmer</a></li>
+    <li class="page-toc__item"><a href="#docskimmer" class="page-toc__link" tabindex="0">docSkimmer</a></li>
     
-        <li class="page-toc__item"><a href="./#features" class="page-toc__link" tabindex="0">Features</a></li>
+        <li class="page-toc__item"><a href=".#features" class="page-toc__link" tabindex="0">Features</a></li>
     
-        <li class="page-toc__item"><a href="./#installation" class="page-toc__link" tabindex="0">Installation</a></li>
+        <li class="page-toc__item"><a href=".#installation" class="page-toc__link" tabindex="0">Installation</a></li>
     
-        <li class="page-toc__item"><a href="./#version-compatibility" class="page-toc__link" tabindex="0">Version compatibility</a></li>
+        <li class="page-toc__item"><a href=".#version-compatibility" class="page-toc__link" tabindex="0">Version compatibility</a></li>
     
-        <li class="page-toc__item"><a href="./#examples" class="page-toc__link" tabindex="0">Examples</a></li>
+        <li class="page-toc__item"><a href=".#examples" class="page-toc__link" tabindex="0">Examples</a></li>
     
 
 </ul>
-
      </aside>
    
 
    
      
     
-      <a href="./examples/sample-page/" class="maincontent__link maincontent__link--next-page">Next: Sample1</a>
+      <a href="examples/sample-page/" class="maincontent__link maincontent__link--next-page">Next: Sample1</a>
     
    
 
@@ -275,16 +279,16 @@ theme_dir: 'mkdocs_docskimmer'
      
   
     <script>var base_url = '.';</script>
-    <script src="./js/jquery-2.1.1.min.js"></script>
-    <script src="./js/theme.js"></script>
+    <script src="js/jquery-2.1.1.min.js"></script>
+    <script src="js/theme.js"></script>
     
       <script src="search/main.js"></script>
   
 
   <!--
   MkDocs version : 0.17.2
-  docSkimmer theme version: 0.3.0
-  Build Date UTC : 2018-06-29 21:40:20
+  docSkimmer theme version: 0.3.1
+  Build Date UTC : 2018-07-04 06:46:35
   -->
   </body>
 </html>

@@ -32,7 +32,7 @@ Or [download the required version](https://github.com/hfagerlund/mkdocs-docskimm
 
 * Modify the following settings in the 'mkdocs.yml' file:
 
-### For docSkimmer v0.3.0:
+### For docSkimmer v0.3.x:
 ```yaml
 # mkdocs.yml:
 
@@ -49,8 +49,9 @@ theme:
 
 plugins: ['search']
 
+# add theme version number here
 extra:
-    version: 0.3.0
+    version: 0.3.x
 
 ```
 
@@ -109,7 +110,8 @@ theme_dir: 'mkdocs_docskimmer'
 
 | docSkimmer theme version(s) | MkDocs version(s) |
 | :------: | :------: |
-| 0.3.0 | [(current) latest refactor of MkDocs](https://github.com/mkdocs/mkdocs/tree/34ef3ca6d0390959080ce93a695361eea1649272) |
+| 0.3.1 | [Template URL filter addition](https://github.com/mkdocs/mkdocs/tree/decaf6141c90b0123a4b7f03ee839d0780570bc9) |
+| 0.3.0 | [Pages refactor](https://github.com/mkdocs/mkdocs/tree/34ef3ca6d0390959080ce93a695361eea1649272) |
 | 0.2.1 | 0.17.4<br>0.17.3<br>0.17.2<br>0.17.1<br>0.17.0 |
 | 0.2.0 | 0.17.0 |
 | 0.1.1<br>0.1.0 | 0.16.3<br>0.16.2 |

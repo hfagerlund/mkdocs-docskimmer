@@ -22,7 +22,7 @@ theme:
 plugins: ['search']
 
 extra:
-    version: 0.3.0
+    version: 0.3.1
 
 copyright: Copyright &copy; 2017 Heini Fagerlund
 google_analytics: ['UA-38407980-4', 'auto']

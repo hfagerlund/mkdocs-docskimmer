@@ -1,5 +1,5 @@
 /*
-   docSkimmer theme v0.3.0
+   docSkimmer theme v0.3.1
    License: BSD-2-Clause license (https://github.com/hfagerlund/mkdocs-docskimmer/blob/master/LICENSE)
 */
 
