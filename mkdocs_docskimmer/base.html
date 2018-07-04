@@ -13,19 +13,19 @@
         {%- endblock %}
 
   {% block styles %}
-    <link rel="stylesheet" href="{{ base_url }}/css/reset.css" type="text/css">
-    <link rel="stylesheet" href="{{ base_url }}/css/docskimmer.css" type="text/css">
+    <link rel="stylesheet" href="{{ 'css/reset.css'|url }}" type="text/css">
+    <link rel="stylesheet" href="{{ 'css/docskimmer.css'|url }}" type="text/css">
 
     {# enable customization #}
-    {%- for path in extra_css %}
-      <link href="{{ path }}" rel="stylesheet">
+    {%- for path in config['extra_css'] %}
+      <link href="{{ path|url }}" rel="stylesheet">
     {%- endfor %}
   {% endblock styles %}
 
-    <link rel="shortcut icon" href="{{ base_url }}/img/favicon.ico">
-	  <link rel="apple-touch-icon" href="{{ base_url }}/img/apple-touch-icon.png">
-	  <link rel="apple-touch-icon" sizes="72x72" href="{{ base_url }}/img/apple-touch-icon-72x72.png">
-	  <link rel="apple-touch-icon" sizes="114x114" href="{{ base_url }}/img/apple-touch-icon-114x114.png">
+    <link rel="shortcut icon" href="{{ 'img/favicon.ico'|url }}">
+	<link rel="apple-touch-icon" href="{{ 'img/apple-touch-icon.png'|url }}">
+	<link rel="apple-touch-icon" sizes="72x72" href="{{ 'img/apple-touch-icon-72x72.png'|url }}">
+	<link rel="apple-touch-icon" sizes="114x114" href="{{ 'img/apple-touch-icon-114x114.png'|url }}">
   </head>
 
   <body>
@@ -70,10 +70,10 @@
 
    {% block next_prev %}
      {% if page.previous_page %}
-      <a href="{{ base_url }}/{{page.previous_page.url}}" class="maincontent__link maincontent__link--previous-page">Previous: {{page.previous_page.title}}</a>
+      <a href="{{ page.previous_page.url|url }}" class="maincontent__link maincontent__link--previous-page">Previous: {{page.previous_page.title}}</a>
     {% endif %}
     {% if page.next_page %}
-      <a href="{{ base_url }}/{{page.next_page.url}}" class="maincontent__link maincontent__link--next-page">Next: {{page.next_page.title}}</a>
+      <a href="{{ page.next_page.url|url }}" class="maincontent__link maincontent__link--next-page">Next: {{page.next_page.title}}</a>
     {% endif %}
    {% endblock next_prev %}
 
@@ -103,11 +103,11 @@
 
   {%- block scripts %}
     <script>var base_url = '{{ base_url }}';</script>
-    <script src="{{ base_url }}/js/jquery-2.1.1.min.js"></script>
-    <script src="{{ base_url }}/js/theme.js"></script>
+    <script src="{{ 'js/jquery-2.1.1.min.js'|url }}"></script>
+    <script src="{{ 'js/theme.js'|url }}"></script>
     {# enable customization #}
-    {%- for path in extra_javascript %}
-      <script src="{{ path }}"></script>
+    {%- for path in config['extra_javascript'] %}
+      <script src="{{ path|url }}"></script>
     {%- endfor %}
   {% endblock scripts %}
 
