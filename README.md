@@ -110,7 +110,7 @@ theme_dir: 'mkdocs_docskimmer'
 
 | docSkimmer theme version(s) | MkDocs version(s) |
 | :------: | :------: |
-| 0.3.1 | [Template URL filter addition](https://github.com/mkdocs/mkdocs/tree/decaf6141c90b0123a4b7f03ee839d0780570bc9) |
+| 0.3.1 | 1.0.4<br>[Template URL filter addition](https://github.com/mkdocs/mkdocs/tree/decaf6141c90b0123a4b7f03ee839d0780570bc9) |
 | 0.3.0 | [Pages refactor](https://github.com/mkdocs/mkdocs/tree/34ef3ca6d0390959080ce93a695361eea1649272) |
 | 0.2.1 | 0.17.4<br>0.17.3<br>0.17.2<br>0.17.1<br>0.17.0 |
 | 0.2.0 | 0.17.0 |
