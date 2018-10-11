@@ -54,16 +54,16 @@
       {% endif %}
     {% endfor %}
 
-    <button id="menu-hamburger" aria-label="Open menu table of contents for this page" type="button" title="Menu">&#9776; open</button>
+    <button class="menu-hamburger" data-js="menuOpenCtrl" aria-label="Open menu table of contents for this page" type="button" title="Menu">&#9776; open</button>
     <!-- END subnav -->
     
    {% block content %}
-     <main id="maincontent" role="main">
+     <main class="maincontent" data-js="mainContent" role="main">
       {{ page.content }}
      </main>
 
-     <aside id="page-toc" class="page-toc" role="complementary" aria-label="Table of Contents for this page">
-       <button aria-label="Close" id="page-toc__closebtn" class="page-toc__closebtn">X</button>
+     <aside class="page-toc" data-js="toc" role="complementary" aria-label="Table of Contents for this page">
+       <button aria-label="Close" class="page-toc__closebtn" data-js="tocCloseCtrl">X</button>
        {% include "page-toc.html" %}
      </aside>
    {% endblock content %}

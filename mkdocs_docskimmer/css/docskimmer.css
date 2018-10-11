@@ -1,5 +1,5 @@
 /*
-   docSkimmer theme v0.3.1
+   docSkimmer theme v0.4.0
    License: BSD-2-Clause license (https://github.com/hfagerlund/mkdocs-docskimmer/blob/master/LICENSE)
 */
 
@@ -207,7 +207,7 @@ ol ol,ul ul{margin-left:1.5em}
 /* phone-and-tablet */
   @media only screen and (max-width:1199px) {
     /* BEGIN page TOC menu panel */
-    #maincontent{padding:0;transition:margin-left .5s}
+    .maincontent{padding:0;transition:margin-left .5s}
     .page-toc{background-color:#eee;border-right:1px solid #999;height:100%;left:0;overflow-x:hidden;position:fixed;top:0;transition:0.5s;width:0;z-index:2}
     .page-toc__closebtn{border:1px solid #085f5f;font-size:1.4em;margin-top:0.5em;padding:0 0.2em;position:absolute;right:0.5em;text-decoration:none;top:0}
     .page-toc__heading{margin-left:1em}
@@ -216,7 +216,7 @@ ol ol,ul ul{margin-left:1.5em}
     
     code{background-color:transparent;border-left:7px solid #eee;border-radius:0}
     .form__input{min-width:70%;width:auto}
-    #menu-hamburger{background-color:#222;color:#fff;cursor:pointer;border-radius:25px;float:right;font-size:1.2em;margin:0.5em 0.5em 0 0;padding:0.2em 0.5em}
+    .menu-hamburger{background-color:#222;color:#fff;cursor:pointer;border-radius:25px;float:right;font-size:1.2em;margin:0.5em 0.5em 0 0;padding:0.2em 0.5em}
     .page-toc__heading{border-bottom:0;margin-bottom:0;padding-top:2em}
     .page-toc__item{margin:0}
   } /* END phone-and-tablet */
@@ -266,8 +266,8 @@ ol ol,ul ul{margin-left:1.5em}
 
 /* desktop-up */
   @media only screen and (min-width:1200px) {
-    #maincontent{margin-left:7em;margin-right:19em} 
-    #menu-hamburger,.page-toc__closebtn{display:none}
+    .maincontent{margin-left:7em;margin-right:19em}
+    .menu-hamburger,.page-toc__closebtn{display:none}
     .page-toc{display:block;float:right;position:absolute;top:17em;right:0;margin:0;padding:0.5em 1em 2em 2em;max-width:15em}
   }
 

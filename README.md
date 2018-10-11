@@ -15,7 +15,7 @@
 * no libs - except for a single (~2KB) module (include only what you prefer using `extra_javascript`);
 * supports MkDocs configuration features such as `google_analytics`.
 
-## Install
+## Installation
 
 * Clone docSkimmer from GitHub:
 
@@ -30,9 +30,11 @@ Or [download the required version](https://github.com/hfagerlund/mkdocs-docskimm
 
 * Copy the contents of the `mkdocs_docskimmer` directory into the MkDocs project root (ie. at the same level as the `docs` directory).
 
+## Usage
+
 * Modify the following settings in the 'mkdocs.yml' file:
 
-### For docSkimmer v0.3.x:
+### For docSkimmer v0.3.x, v0.4.x:
 ```yaml
 # mkdocs.yml:
 
@@ -110,6 +112,7 @@ theme_dir: 'mkdocs_docskimmer'
 
 | docSkimmer theme version(s) | MkDocs version(s) |
 | :------: | :------: |
+| 0.4.0 | 1.0.4 |
 | 0.3.1 | 1.0.4<br>[Template URL filter addition](https://github.com/mkdocs/mkdocs/tree/decaf6141c90b0123a4b7f03ee839d0780570bc9) |
 | 0.3.0 | [Pages refactor](https://github.com/mkdocs/mkdocs/tree/34ef3ca6d0390959080ce93a695361eea1649272) |
 | 0.2.1 | 0.17.4<br>0.17.3<br>0.17.2<br>0.17.1<br>0.17.0 |
