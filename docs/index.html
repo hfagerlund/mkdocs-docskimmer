@@ -91,11 +91,11 @@
       
     
 
-    <button id="menu-hamburger" aria-label="Open menu table of contents for this page" type="button" title="Menu">&#9776; open</button>
+    <button class="menu-hamburger" data-js="menuOpenCtrl" aria-label="Open menu table of contents for this page" type="button" title="Menu">&#9776; open</button>
     <!-- END subnav -->
     
    
-     <main id="maincontent" role="main">
+     <main class="maincontent" data-js="mainContent" role="main">
       <h1 id="docskimmer">docSkimmer</h1>
 <p><a href="https://github.com/hfagerlund/mkdocs-docskimmer/">docSkimmer</a> is a skimmable minimal theme for static documentation sites built using <a href="https://github.com/mkdocs/mkdocs/">MkDocs</a>.</p>
 <p>Supports <a href="https://hfagerlund.github.io/mkdocs-docskimmer/#version-compatibility">MkDocs versions &gt;= 0.16.2</a>.</p>
@@ -116,14 +116,13 @@
 
 <p>Or <a href="https://github.com/hfagerlund/mkdocs-docskimmer/releases">download the required version</a> - refer to: <a href="https://hfagerlund.github.io/mkdocs-docskimmer/#version-compatibility">'Version compatibility'</a>.</p>
 <ul>
-<li>
-<p>Copy the contents of the '/mkdocs_docskimmer' directory into your MkDocs project root (ie. at the same level as the project's '/docs' directory).</p>
-</li>
-<li>
-<p>Modify the following settings in the 'mkdocs.yml' file:</p>
-</li>
+<li>Copy the contents of the '/mkdocs_docskimmer' directory into your MkDocs project root (ie. at the same level as the project's '/docs' directory).</li>
 </ul>
-<h3 id="for-docskimmer-v03x">For docSkimmer v0.3.x:</h3>
+<h2 id="usage">Usage</h2>
+<ul>
+<li>Modify the following settings in the 'mkdocs.yml' file:</li>
+</ul>
+<h3 id="for-docskimmer-v03x-v04x">For docSkimmer v0.3.x, v0.4.x:</h3>
 <pre><code># mkdocs.yml:
 
 nav:
@@ -203,6 +202,10 @@ theme_dir: 'mkdocs_docskimmer'
 </thead>
 <tbody>
 <tr>
+<td align="center">0.4.0</td>
+<td align="center">1.0.4</td>
+</tr>
+<tr>
 <td align="center">0.3.1</td>
 <td align="center">1.0.4<br><a href="https://github.com/mkdocs/mkdocs/tree/decaf6141c90b0123a4b7f03ee839d0780570bc9">Template URL filter addition</a></td>
 </tr>
@@ -228,20 +231,22 @@ theme_dir: 'mkdocs_docskimmer'
 <p>Examples of how Markdown syntax is rendered and how 2nd-level navigation is displayed in the <a href="https://github.com/hfagerlund/mkdocs-docskimmer/">docSkimmer theme</a> are available on <a href="/examples/sample-page">this sample page</a>.</p>
      </main>
 
-     <aside id="page-toc" class="page-toc" role="complementary" aria-label="Table of Contents for this page">
-       <button aria-label="Close" id="page-toc__closebtn" class="page-toc__closebtn">X</button>
+     <aside class="page-toc" data-js="toc" role="complementary" aria-label="Table of Contents for this page">
+       <button aria-label="Close" class="page-toc__closebtn" data-js="tocCloseCtrl">X</button>
        <h2 class="page-toc__heading">On this Page:</h2>
 <ul>
 
-    <li class="page-toc__item"><a href="#docskimmer" class="page-toc__link" tabindex="0">docSkimmer</a></li>
+    <li class="page-toc__item"><a href="#docskimmer" class="page-toc__link" data-js="tocLink" tabindex="0">docSkimmer</a></li>
     
-        <li class="page-toc__item"><a href=".#features" class="page-toc__link" tabindex="0">Features</a></li>
+        <li class="page-toc__item"><a href=".#features" class="page-toc__link" data-js="tocLink" tabindex="0">Features</a></li>
     
-        <li class="page-toc__item"><a href=".#installation" class="page-toc__link" tabindex="0">Installation</a></li>
+        <li class="page-toc__item"><a href=".#installation" class="page-toc__link" data-js="tocLink" tabindex="0">Installation</a></li>
     
-        <li class="page-toc__item"><a href=".#version-compatibility" class="page-toc__link" tabindex="0">Version compatibility</a></li>
+        <li class="page-toc__item"><a href=".#usage" class="page-toc__link" data-js="tocLink" tabindex="0">Usage</a></li>
     
-        <li class="page-toc__item"><a href=".#examples" class="page-toc__link" tabindex="0">Examples</a></li>
+        <li class="page-toc__item"><a href=".#version-compatibility" class="page-toc__link" data-js="tocLink" tabindex="0">Version compatibility</a></li>
+    
+        <li class="page-toc__item"><a href=".#examples" class="page-toc__link" data-js="tocLink" tabindex="0">Examples</a></li>
     
 
 </ul>
@@ -287,8 +292,8 @@ theme_dir: 'mkdocs_docskimmer'
 
   <!--
   MkDocs version : 1.0.4
-  docSkimmer theme version: 0.3.1
-  Build Date UTC : 2018-09-18 18:45:13
+  docSkimmer theme version: 0.4.0
+  Build Date UTC : 2018-10-11 16:16:40
   -->
   </body>
 </html>

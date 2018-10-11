@@ -1,6 +1,13 @@
 # Changelog:
 
 - - -
+## 0.4.0 - 2018-10-11
+
+#### Changed:
+* [Refactored sliding (mobile) menu panel](https://github.com/hfagerlund/mkdocs-docskimmer/issues/11)
+* Updated [demo](https://hfagerlund.github.io/mkdocs-docskimmer/) (to docSkimmer v0.4.0)
+* Bumped version number
+- - -
 ## 0.3.1 - 2018-07-04
 
 #### Changed:
@@ -47,7 +54,7 @@
 ## 0.1.1 - 2017-06-15
 
 #### New features:
-* Launched documentation site
+* Launched [documentation site/demo](https://hfagerlund.github.io/mkdocs-docskimmer/)
 
 #### Changed:
 * Replaced screenshot

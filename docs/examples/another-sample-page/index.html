@@ -113,11 +113,11 @@
       
     
 
-    <button id="menu-hamburger" aria-label="Open menu table of contents for this page" type="button" title="Menu">&#9776; open</button>
+    <button class="menu-hamburger" data-js="menuOpenCtrl" aria-label="Open menu table of contents for this page" type="button" title="Menu">&#9776; open</button>
     <!-- END subnav -->
     
    
-     <main id="maincontent" role="main">
+     <main class="maincontent" data-js="mainContent" role="main">
       <h1 id="another-sample-page">Another sample page</h1>
 <p>This is another sample page to demonstrate:</p>
 <ul>
@@ -460,28 +460,28 @@ sit amet laoreet nibh.</p>
 </table>
      </main>
 
-     <aside id="page-toc" class="page-toc" role="complementary" aria-label="Table of Contents for this page">
-       <button aria-label="Close" id="page-toc__closebtn" class="page-toc__closebtn">X</button>
+     <aside class="page-toc" data-js="toc" role="complementary" aria-label="Table of Contents for this page">
+       <button aria-label="Close" class="page-toc__closebtn" data-js="tocCloseCtrl">X</button>
        <h2 class="page-toc__heading">On this Page:</h2>
 <ul>
 
-    <li class="page-toc__item"><a href="../../#another-sample-page" class="page-toc__link" tabindex="0">Another sample page</a></li>
+    <li class="page-toc__item"><a href="../../#another-sample-page" class="page-toc__link" data-js="tocLink" tabindex="0">Another sample page</a></li>
     
-        <li class="page-toc__item"><a href="./#body-copy" class="page-toc__link" tabindex="0">Body copy</a></li>
+        <li class="page-toc__item"><a href="./#body-copy" class="page-toc__link" data-js="tocLink" tabindex="0">Body copy</a></li>
     
-        <li class="page-toc__item"><a href="./#headings" class="page-toc__link" tabindex="0">Headings</a></li>
+        <li class="page-toc__item"><a href="./#headings" class="page-toc__link" data-js="tocLink" tabindex="0">Headings</a></li>
     
-        <li class="page-toc__item"><a href="./#headings-with-secondary-text" class="page-toc__link" tabindex="0">Headings with secondary text</a></li>
+        <li class="page-toc__item"><a href="./#headings-with-secondary-text" class="page-toc__link" data-js="tocLink" tabindex="0">Headings with secondary text</a></li>
     
-        <li class="page-toc__item"><a href="./#blockquotes" class="page-toc__link" tabindex="0">Blockquotes</a></li>
+        <li class="page-toc__item"><a href="./#blockquotes" class="page-toc__link" data-js="tocLink" tabindex="0">Blockquotes</a></li>
     
-        <li class="page-toc__item"><a href="./#lists" class="page-toc__link" tabindex="0">Lists</a></li>
+        <li class="page-toc__item"><a href="./#lists" class="page-toc__link" data-js="tocLink" tabindex="0">Lists</a></li>
     
-        <li class="page-toc__item"><a href="./#code-blocks" class="page-toc__link" tabindex="0">Code blocks</a></li>
+        <li class="page-toc__item"><a href="./#code-blocks" class="page-toc__link" data-js="tocLink" tabindex="0">Code blocks</a></li>
     
-        <li class="page-toc__item"><a href="./#horizontal-rules" class="page-toc__link" tabindex="0">Horizontal rules</a></li>
+        <li class="page-toc__item"><a href="./#horizontal-rules" class="page-toc__link" data-js="tocLink" tabindex="0">Horizontal rules</a></li>
     
-        <li class="page-toc__item"><a href="./#data-tables" class="page-toc__link" tabindex="0">Data tables</a></li>
+        <li class="page-toc__item"><a href="./#data-tables" class="page-toc__link" data-js="tocLink" tabindex="0">Data tables</a></li>
     
 
 </ul>
@@ -527,8 +527,8 @@ sit amet laoreet nibh.</p>
 
   <!--
   MkDocs version : 1.0.4
-  docSkimmer theme version: 0.3.1
-  Build Date UTC : 2018-09-18 18:45:13
+  docSkimmer theme version: 0.4.0
+  Build Date UTC : 2018-10-11 16:16:40
   -->
   </body>
 </html>
