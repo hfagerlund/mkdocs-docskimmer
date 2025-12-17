@@ -30,6 +30,14 @@ Or [download the required version](https://github.com/hfagerlund/mkdocs-docskimm
 
 * Copy the contents of the `mkdocs_docskimmer` directory into the MkDocs project root (ie. at the same level as the `docs` directory).
 
+### pip install
+Install directly from repository:
+```bash
+$ pip install git+https://github.com/hfagerlund/mkdocs-docskimmer.git@master
+```
+### Docker
+Refer to [docker-for-docskimmer](https://github.com/hfagerlund/docker-for-docskimmer).
+
 ## Usage
 
 * Modify the following settings in the 'mkdocs.yml' file:
